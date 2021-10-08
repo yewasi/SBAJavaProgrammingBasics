@@ -1,6 +1,5 @@
 package com.perscholas;
 
-import java.util.Arrays;
 import java.util.stream.IntStream;
 
 
@@ -8,6 +7,7 @@ import java.util.stream.IntStream;
 public class Main {
 
     public static void main(String[] args) {
+
         //Initialize array
         char[] arr = new char[]{'c', 'a', 'k', 'e', ' ', 'p', 'o', 'u', 'n', 'd', ' ', 's', 't', 'e', 'a', 'l'};
         System.out.println("Original array: ");
@@ -27,6 +27,7 @@ public class Main {
         }
     }
 }
+
 
 
 
