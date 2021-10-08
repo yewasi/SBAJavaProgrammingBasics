@@ -3,7 +3,7 @@ package com.perscholas;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
-import static java.util.stream.IntStream.rangeClosed;
+
 
 public class Main {
 
@@ -13,8 +13,6 @@ public class Main {
         System.out.println("Original array: ");
         IntStream.range(0, arr.length).mapToObj(i -> arr[i] + " ").forEach(System.out::print);
         System.out.println();
-
-
 
         //Loop through the array in reverse order
         System.out.println("Array in reverse order: ");
@@ -27,7 +25,9 @@ public class Main {
 
 
         }
-
     }
 }
+
+
+
 
